@@ -13,11 +13,11 @@ body {
     align-content: flex-start;
     /* align-items: flex-start; */
     justify-content: flex-start;
-    padding-left: 100px;
+    padding-left: 80px;
     border: 1px solid red;
 }
 .nav-link {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .nav-link a {
 color: moccasin;
@@ -95,6 +95,14 @@ header nav ul {
 }
 h2 {
     border: 1px solid red;
+}
+.div4 h2 {
+
+}    
+/* .contact-me {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between; */
 }
 /*
 .subtitle {
