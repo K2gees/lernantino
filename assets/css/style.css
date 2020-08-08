@@ -152,6 +152,8 @@ header nav ul {
 }
 .contact h2{
     border-right: 4px solid black;
+    width: 8%;
+    margin: 25px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
