@@ -90,7 +90,7 @@ header nav ul {
     padding-left: 60px;
 }
 .work-grid-wrapper {
-    background-image: url(/assets/images/sunset.jpg);
+    background-image: url("https://kareem-portfolio.s3.us-east-2.amazonaws.com/sunset.jpg");
     background-size: cover;
     display: flex;
     width: 80%;
@@ -117,14 +117,14 @@ header nav ul {
 
 }
 .run-buddy {
-    background-image: url(/assets/images/run-buddy.png);
+    background-image: url("https://kareem-portfolio.s3.us-east-2.amazonaws.com/run-buddy.png");
     background-size: cover;
     grid-column: span 3;
     grid-row: span 2;
 
 }
 .Horiseon {
-    background-image: url(/assets/images/horiseon.png);
+    background-image: url("https://kareem-portfolio.s3.us-east-2.amazonaws.com/horiseon.png");
     background-size: cover;
     grid-row: 3 / span 1;
     grid-column: 2;    
