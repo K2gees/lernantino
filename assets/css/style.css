@@ -59,6 +59,7 @@ header nav ul {
 .about-me {
     display: flex;
     width: fit-content;
+    margin: 150px 0;
 }
 .div1 h2 {
     padding: 5px;
@@ -72,7 +73,8 @@ header nav ul {
     flex-direction: column;
 }
 .div2 p {
-    margin: 10px;  
+    margin: 10px;
+    padding: 0 50px;  
 }
 .div3 {
     display: flex;
