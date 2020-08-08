@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -7,10 +7,23 @@ body {
     background-color: lavender;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    padding-left: 100px;
+    border: 1px solid red;
+}
 .nav-link {
     margin-right: 10px;
 }
-header {
+.nav-link a {
+color: moccasin;
+text-decoration: none;
+}
+ header {
     background-color: rgb(75, 75, 185);
     display: flex;
     justify-content: space-between;
@@ -30,14 +43,63 @@ header nav ul {
     list-style: none;
 }
 .subtitle {
+    background-image: url(/assets/images/sunset.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}  
+.subtitle button {
+    bottom: 10px;
+    right: 10px;
+    z-index: 1
+}
+.about-me {
+    display: flex;
+    width: fit-content;
+}
+.div1 h2 {
+    padding: 5px;
+    
+}
+.div2 {
+    padding-left: 40px;
+    border-left: 4px black solid;
+    display: flex;
+    flex-direction: column;
+}
+.div2 p {
+    margin: 10px;  
+}
+.div3 {
+    display: flex;
+    padding-right: 10px;
+    width: fit-content;
+    padding-top: 60px;
+    /* border: 1px solid red ; */
+}
+.div3 h2 {
+    padding-top: 160px;
+}
+.div3 img {
+    /* padding-left: 40px;
+    border-left: 4px black solid; */
+    display: flex;
+    margin: 20px;
+    padding: 0 10px 20px 40px;
+}
+.first-image {
+    padding-left: 60px;
+    border-left: 4px black solid;
+}
+h2 {
+    border: 1px solid red;
+}
+/*
+.subtitle {
     text-align: right;
 }
-/* .grid-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px repeat(4, 100px);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; */
 .parent {
     display: grid;
     grid-template-columns: 50px repeat(2, 1fr) 75px repeat(7, 1fr) 30px;
@@ -56,5 +118,29 @@ header nav ul {
     
 div p {
     padding: 10px;
+ */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+   
+  }
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px repeat(4, 100px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+
 }
 
