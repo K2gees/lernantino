@@ -44,7 +44,7 @@ header nav ul {
     list-style: none;
 }
 .subtitle {
-    background-image: url(/assets/images/sunset.jpg);
+    background-image: url("https://kareem-portfolio.s3.us-east-2.amazonaws.com/sunset.jpg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
