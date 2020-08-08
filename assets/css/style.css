@@ -68,13 +68,12 @@ header nav ul {
 }
 .div2 {
     padding-left: 40px;
-    border-left: 4px black solid;
     display: flex;
     flex-direction: column;
 }
 .div2 p {
     margin: 10px;
-    padding: 0 50px; 
+    /* padding: 0 50px;  */
      
 }
 .div3 {
@@ -82,12 +81,13 @@ header nav ul {
     padding-right: 10px;
     /* width: fit-content; */
     padding-top: 60px;
-    border: 1px solid red;
+    border: 4px solid orangered;
     
 }
 .div3 h2 {
-    padding-top: 160px;
-    padding-left: 60px;
+    /* padding-top: 160px;
+    padding-left: 60px; */
+    padding: 0 25px 0 25px;
 }
 .work-grid-wrapper {
     background-image: url("https://kareem-portfolio.s3.us-east-2.amazonaws.com/sunset.jpg");
@@ -151,9 +151,7 @@ header nav ul {
     text-shadow: 0px 30px 20px black;
 }
 .contact h2{
-    border-right: 4px solid black;
-    width: 8%;
-    margin: 25px;
+    padding: 0 25px 0 25px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
