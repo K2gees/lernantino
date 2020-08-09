@@ -15,7 +15,7 @@ https://k2gees.github.io/lernantino/
 
 ![View of website in Ipad](/assets/images/Screen Shot 2020-08-08 at 7.01.36 PM.png)
 
-![View of website on iphone](/assets/images/Screen Shot 2020-08-08 at 7.02.37)
+![View of website on iphone](/assets/images/Screen Shot 2020-08-08 at 7.02.37 PM.png)
 
 ## Contribution
 Created by Kareem Leggett
